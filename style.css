@@ -1,0 +1,378 @@
+/*==================GERAL==================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ece9e9;
+    color: #111;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.center {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background-color: #ece9e9;
+    border: 0px solid #ece9e9;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ece9e9;
+    border-radius: 50px;
+    border: 0px solid #ece9e9;
+}
+
+
+/*==================GERAL==================*/
+
+
+/*==================CABEÇALHO==================*/
+
+header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: sticky;
+    background-color: #ece9e9;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.04);
+    z-index: 1;
+}
+
+.logo {
+    display: block;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.logo img {
+    padding: 10px 0;
+    max-width: 250px;
+    max-height: 100px;
+}
+
+
+/*==================CABEÇALHO==================*/
+
+
+/*==================MENUS==================*/
+
+.main {
+    text-align: justify;
+}
+
+.menu {
+    font-weight: 600;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.menu ul {
+    text-align: center;
+    gap: 2rem;
+    display: flex;
+}
+
+.menu li {
+    text-align: center;
+    display: inline-block;
+}
+
+.menu a {
+    color: #111;
+    font-size: 28px;
+    text-decoration: none;
+    margin: 0 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.menu a:hover {
+    transition: .2s cubic-bezier(0.2, 1, 0.2, 1.4);
+    color: #777d81;
+    text-decoration: line-through;
+    transform: scale(1.05);
+    overflow: hidden;
+}
+
+
+/*==================MENUS==================*/
+
+
+/*==================PRODUTOS==================*/
+
+.prod {
+    display: inline-table;
+    min-height: 80vh;
+}
+
+.prod h3 {
+    font-style: italic;
+    letter-spacing: 5px;
+    font-stretch: ultra-expanded;
+    font-size: 24px;
+    float: right;
+    animation: fadeInRight;
+    animation-duration: 1.2s;
+    color: #111;
+    text-align: left;
+    margin-left: 8vh;
+}
+
+.conteudo {
+    display: inline-block;
+}
+
+.prod img {
+    width: 318px;
+    height: 382px;
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
+    animation: fadeInLeft;
+    animation-duration: 1s;
+    z-index: 1;
+}
+
+.prod img:hover {
+    transition: .2s cubic-bezier(0.2, 1, 0.2, 1.4);
+    transform: scale(1.05);
+}
+
+.prod h3:hover {
+    transition: .2s cubic-bezier(0.2, 1, 0.2, 1.4);
+    color: #777d81;
+    text-decoration: line-through;
+    transform: scale(1.05)
+}
+
+
+/*==================PRODUTOS==================*/
+
+
+/*==================SOBRE NÓS==================*/
+
+.titsn {
+    padding-top: 60px;
+}
+
+.expliq {
+    text-indent: 2em;
+    text-align: left;
+    padding-top: 17px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2#who {
+    font-style: italic;
+    letter-spacing: 7px;
+    font-size: 32px;
+}
+
+h2#who1 {
+    font-style: italic;
+    letter-spacing: 7px;
+    font-size: 32px;
+}
+
+.equipe {
+    text-indent: 2em;
+    padding-top: 17px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.equipe a {
+    margin-top: 10px;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 5 px;
+    color: #222;
+}
+
+.equipe a:hover {
+    transition: .2s cubic-bezier(0.2, 1, 0.2, 1.4);
+    color: #777d81;
+    text-decoration: line-through;
+    transform: scale(1.1)
+}
+
+section#sobre-nos {
+    min-height: 75vh;
+}
+
+
+/*==================SOBRE NÓS==================*/
+
+
+/*==================INICIAL==================*/
+
+.imagem {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 30vh;
+}
+
+.imagem img {
+    animation: zoomIn;
+    animation-duration: 1s;
+}
+
+.imagem img:hover {
+    animation: zoom 1s;
+}
+
+
+/*==================INICIAL==================*/
+
+
+/*==================FOOTER==================*/
+
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #111;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #222;
+}
+
+footer a:hover {
+    transition: .2s cubic-bezier(0.2, 1, 0.2, 1.4);
+    color: #777d81;
+    text-decoration: line-through;
+    transform: scale(1.1)
+}
+
+
+/*==================FOOTER==================*/
+
+
+/*==================ARQUIVO==================*/
+
+
+/*==================ARQUIVO==================*/
+
+@keyframes zoom {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 100%;
+    }
+    .menu ul {
+        text-align: center;
+        gap: 2rem;
+        display: block;
+    }
+    .menu li {
+        text-align: center;
+        display: block;
+    }
+    h2#who {
+        font-style: italic;
+        letter-spacing: 7px;
+        font-size: 32px;
+        text-align: center;
+        padding-left: 27vw;
+    }
+    .equipe a {
+        margin-top: 10px;
+        font-weight: 500;
+        padding-right: 12vw;
+        text-decoration: none;
+        font-size: 25px;
+        letter-spacing: 5 px;
+        color: #222;
+    }
+    h2#who1 {
+        font-style: italic;
+        letter-spacing: 7px;
+        font-size: 32px;
+        top: 0;
+        left: 0;
+        margin-left: 10vw;
+    }
+    .equipe {
+        padding-top: 17px;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 2vh;
+    }
+    .expliq {
+        text-indent: 2em;
+        text-align: left;
+        padding-top: 17px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding: 2vh;
+    }
+    .prod {
+        display: inline-table;
+        min-height: 70vh;
+    }
+    .prod h3 {
+        font-style: italic;
+        letter-spacing: 5px;
+        font-stretch: ultra-expanded;
+        font-size: 24px;
+        float: right;
+        animation: fadeInRight;
+        animation-duration: 1.2s;
+        color: #222;
+        text-align: left;
+        margin-left: 8vh;
+        margin-top: 2vh;
+    }
+}
