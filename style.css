@@ -137,7 +137,7 @@ header {
     font-style: italic;
     letter-spacing: 5px;
     font-stretch: ultra-expanded;
-    font-size: 24px;
+    font-size: 1.7vw;
     float: right;
     animation: fadeInRight;
     animation-duration: 1.2s;
@@ -147,16 +147,16 @@ header {
 }
 
 .conteudo {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
 .prod img {
-    width: 318px;
-    height: 382px;
+    width: 23vw;
+    height: 59vh;
     box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
     animation: fadeInLeft;
     animation-duration: 1s;
-    z-index: 1;
 }
 
 .prod img:hover {
@@ -233,30 +233,6 @@ section#sobre-nos {
 
 
 /*==================SOBRE NÓS==================*/
-
-
-/*==================INICIAL==================*/
-
-.imagem {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    padding-top: 30vh;
-}
-
-.imagem img {
-    animation: zoomIn;
-    animation-duration: 1s;
-}
-
-.imagem img:hover {
-    animation: zoom 1s;
-}
-
-
-/*==================INICIAL==================*/
 
 
 /*==================FOOTER==================*/
@@ -364,17 +340,27 @@ footer a:hover {
         justify-content: center;
         align-items: center;
     }
+    .prod a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .prod h3 {
         font-style: italic;
         letter-spacing: 5px;
         font-stretch: ultra-expanded;
         font-size: 24px;
-        float: right;
         animation: fadeInRight;
         animation-duration: 1.2s;
         color: #222;
         text-align: center;
         margin-top: 2vh;
-        color: red;
+        background-color: aqua;
+        margin-right: 17%;
+    }
+    .conteudo {
+        display: flex;
+        flex-direction: column;
     }
 }
