@@ -362,6 +362,7 @@ footer a:hover {
         display: flex;
         min-height: 70vh;
         justify-content: center;
+        align-items: center;
     }
     .prod h3 {
         font-style: italic;
