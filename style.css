@@ -363,8 +363,8 @@ footer a:hover {
         flex-direction: column;
     }
     .prod img {
-        width: 314vw;
-        height: 375vh;
+        width: 314px;
+        height: 375px;
         box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
         animation: fadeInLeft;
         animation-duration: 1s;
