@@ -128,33 +128,30 @@ header {
 
 /*==================PRODUTOS==================*/
 
-.prod {
-    display: inline-table;
-    min-height: 80vh;
-}
-
 .prod h3 {
     font-style: italic;
     letter-spacing: 5px;
     font-stretch: ultra-expanded;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
+    margin-right: 3%;
     float: right;
     animation: fadeInRight;
     animation-duration: 1.2s;
     color: #111;
     text-align: left;
-    margin-left: 8vh;
+    margin-top: 3%;
 }
 
 .conteudo {
     display: flex;
-    flex-direction: column;
+    gap: 5%;
+    margin-left: -6vw;
 }
 
 .prod img {
     width: 23vw;
     height: 59vh;
-    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.6);
     animation: fadeInLeft;
     animation-duration: 1s;
 }
@@ -365,7 +362,7 @@ footer a:hover {
     .prod img {
         width: 314px;
         height: 375px;
-        box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
+        box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.6);
         animation: fadeInLeft;
         animation-duration: 1s;
     }
