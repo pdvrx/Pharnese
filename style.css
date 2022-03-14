@@ -31,13 +31,13 @@ body {
 ::-webkit-scrollbar {
     width: 0px;
     background-color: #ece9e9;
-    border: 0px #ece9e9;
+    border: 0px solid #ece9e9;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #ece9e9;
     border-radius: 50px;
-    border: 0px #ece9e9;
+    border: 0px solid #ece9e9;
 }
 
 
@@ -128,30 +128,33 @@ header {
 
 /*==================PRODUTOS==================*/
 
+.prod {
+    display: inline-table;
+    min-height: 80vh;
+}
+
 .prod h3 {
     font-style: italic;
     letter-spacing: 5px;
     font-stretch: ultra-expanded;
-    font-size: 1.5vw;
-    margin-right: 3%;
+    font-size: 1.7vw;
     float: right;
     animation: fadeInRight;
     animation-duration: 1.2s;
     color: #111;
     text-align: left;
-    margin-top: 3%;
+    margin-left: 8vh;
 }
 
 .conteudo {
     display: flex;
-    gap: 5%;
-    margin-left: -6vw;
+    flex-direction: column;
 }
 
 .prod img {
     width: 23vw;
     height: 59vh;
-    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
     animation: fadeInLeft;
     animation-duration: 1s;
 }
@@ -197,7 +200,6 @@ h2#who1 {
     font-style: italic;
     letter-spacing: 7px;
     font-size: 32px;
-    margin-top: 10vh;
 }
 
 .equipe {
@@ -226,7 +228,7 @@ h2#who1 {
 }
 
 section#sobre-nos {
-    min-height: 85vh;
+    min-height: 75vh;
 }
 
 
@@ -363,7 +365,7 @@ footer a:hover {
     .prod img {
         width: 314px;
         height: 375px;
-        box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.6);
+        box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
         animation: fadeInLeft;
         animation-duration: 1s;
     }
