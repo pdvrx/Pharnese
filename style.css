@@ -31,13 +31,13 @@ body {
 ::-webkit-scrollbar {
     width: 0px;
     background-color: #ece9e9;
-    border: 0px solid #ece9e9;
+    border: 0px #ece9e9;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #ece9e9;
     border-radius: 50px;
-    border: 0px solid #ece9e9;
+    border: 0px #ece9e9;
 }
 
 
@@ -197,6 +197,7 @@ h2#who1 {
     font-style: italic;
     letter-spacing: 7px;
     font-size: 32px;
+    margin-top: 10vh;
 }
 
 .equipe {
@@ -225,7 +226,7 @@ h2#who1 {
 }
 
 section#sobre-nos {
-    min-height: 75vh;
+    min-height: 85vh;
 }
 
 
