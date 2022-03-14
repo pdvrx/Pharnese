@@ -359,8 +359,9 @@ footer a:hover {
         padding: 2vh;
     }
     .prod {
-        display: inline-table;
+        display: flex;
         min-height: 70vh;
+        justify-content: center;
     }
     .prod h3 {
         font-style: italic;
