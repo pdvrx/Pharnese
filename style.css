@@ -356,11 +356,17 @@ footer a:hover {
         color: #222;
         text-align: center;
         margin-top: 2vh;
-        background-color: aqua;
         margin-right: 17%;
     }
     .conteudo {
         display: flex;
         flex-direction: column;
+    }
+    .prod img {
+        width: 314vw;
+        height: 375vh;
+        box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
+        animation: fadeInLeft;
+        animation-duration: 1s;
     }
 }
