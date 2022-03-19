@@ -129,8 +129,8 @@ header {
 /*==================PRODUTOS==================*/
 
 .prod {
-    display: inline-table;
     min-height: 80vh;
+    max-width: 900px;
 }
 
 .prod h3 {
@@ -141,14 +141,14 @@ header {
     float: right;
     animation: fadeInRight;
     animation-duration: 1.2s;
+    margin-top: 10px;
     color: #111;
     text-align: left;
-    margin-left: 8vh;
 }
 
 .conteudo {
     display: flex;
-    flex-direction: column;
+    gap: 2%;
 }
 
 .prod img {
@@ -365,6 +365,7 @@ footer a:hover {
     .prod img {
         width: 314px;
         height: 375px;
+        margin-left: 10%;
         box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
         animation: fadeInLeft;
         animation-duration: 1s;
