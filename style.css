@@ -14,9 +14,8 @@ html {
 }
 
 .center {
-    max-width: 900px;
     margin: 0 auto;
-    padding: 0 2%;
+    padding: 0 10%;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -130,7 +129,12 @@ header {
 
 .prod {
     min-height: 80vh;
-    max-width: 900px;
+}
+
+.principal {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
 }
 
 .prod h3 {
@@ -141,14 +145,22 @@ header {
     float: right;
     animation: fadeInRight;
     animation-duration: 1.2s;
-    margin-top: 10px;
+    margin-top: 15px;
     color: #111;
     text-align: left;
 }
 
+.sessao {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
 .conteudo {
     display: flex;
-    gap: 2%;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 .prod img {
@@ -160,12 +172,12 @@ header {
 }
 
 .prod img:hover {
-    transition: .2s cubic-bezier(0.2, 1, 0.2, 1.4);
+    transition: 0.3s;
     transform: scale(1.05);
 }
 
 .prod h3:hover {
-    transition: .2s cubic-bezier(0.2, 1, 0.2, 1.4);
+    transition: 0.2s;
     color: #777d81;
     text-decoration: line-through;
     transform: scale(1.05)
@@ -356,7 +368,6 @@ footer a:hover {
         color: #222;
         text-align: center;
         margin-top: 2vh;
-        margin-right: 17%;
     }
     .conteudo {
         display: flex;
@@ -365,9 +376,13 @@ footer a:hover {
     .prod img {
         width: 314px;
         height: 375px;
-        margin-left: 10%;
         box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
         animation: fadeInLeft;
         animation-duration: 1s;
+    }
+    .sessao {
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
     }
 }
