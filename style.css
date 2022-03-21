@@ -78,6 +78,8 @@ header {
 
 .main {
     text-align: justify;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu {
@@ -309,35 +311,15 @@ footer a:hover {
         letter-spacing: 7px;
         font-size: 32px;
         text-align: center;
-        padding-left: 27vw;
-    }
-    .equipe a {
-        margin-top: 10px;
-        font-weight: 500;
-        padding-right: 12vw;
-        text-decoration: none;
-        font-size: 25px;
-        letter-spacing: 5 px;
-        color: #222;
     }
     h2#who1 {
         font-style: italic;
         letter-spacing: 7px;
         font-size: 32px;
-        top: 0;
-        left: 0;
-        margin-left: 10vw;
-    }
-    .equipe {
-        padding-top: 17px;
         text-align: center;
-        font-size: 18px;
-        letter-spacing: 2px;
-        padding: 2vh;
     }
     .expliq {
         text-indent: 2em;
-        text-align: left;
         padding-top: 17px;
         font-size: 18px;
         letter-spacing: 2px;
@@ -382,5 +364,17 @@ footer a:hover {
         display: flex;
         flex-direction: column;
         gap: 3%;
+    }
+    .equipe p {
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .equipe a {
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 25px;
+        letter-spacing: 3px;
+        color: #222;
     }
 }
