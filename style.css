@@ -204,13 +204,7 @@ header {
     text-align: center;
 }
 
-h2#who {
-    font-style: italic;
-    letter-spacing: 7px;
-    font-size: 32px;
-}
-
-h2#who1 {
+.titsn h2 {
     font-style: italic;
     letter-spacing: 7px;
     font-size: 32px;
@@ -281,6 +275,16 @@ footer a:hover {
 
 /*==================ARQUIVO==================*/
 
+h1 {
+    text-decoration: line-through;
+    font-weight: 700;
+    font-style: italic;
+    top: 0;
+    left: 0;
+    padding-top: 44vh;
+    margin: auto;
+}
+
 
 /*==================ARQUIVO==================*/
 
@@ -306,17 +310,16 @@ footer a:hover {
         text-align: center;
         display: block;
     }
-    h2#who {
+    .titsn h2 {
         font-style: italic;
         letter-spacing: 7px;
         font-size: 32px;
         text-align: center;
-    }
-    h2#who1 {
-        font-style: italic;
-        letter-spacing: 7px;
-        font-size: 32px;
-        text-align: center;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
     }
     .expliq {
         text-indent: 2em;
@@ -369,6 +372,7 @@ footer a:hover {
         text-align: center;
         font-size: 18px;
         letter-spacing: 2px;
+        padding-top: 2vh;
     }
     .equipe a {
         font-weight: 500;
