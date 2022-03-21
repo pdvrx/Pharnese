@@ -196,10 +196,10 @@ header {
 .expliq {
     text-indent: 2em;
     text-align: left;
-    padding-top: 17px;
     font-size: 18px;
+    padding-top: 2vh;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: justify;
 }
 
 h2#who {
@@ -214,21 +214,19 @@ h2#who1 {
     font-size: 32px;
 }
 
-.equipe {
+.equipe p {
     text-indent: 2em;
-    padding-top: 17px;
+    padding-top: 17vh;
     text-align: center;
     font-size: 18px;
     letter-spacing: 2px;
 }
 
 .equipe a {
-    margin-top: 10px;
     font-weight: 500;
-    margin-left: 40px;
     text-decoration: none;
     font-size: 25px;
-    letter-spacing: 5 px;
+    letter-spacing: 3px;
     color: #222;
 }
 
