@@ -259,16 +259,7 @@ footer a:hover {
 
 /*==================ARQUIVO==================*/
 
-/*h1 {
-    text-decoration: line-through;
-    font-weight: 700;
-    font-style: italic;
-    top: 0;
-    left: 0;
-    padding-top: 44vh;
-    margin: auto;
-}
-*/
+
 .container-galeria{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -301,6 +292,24 @@ footer a:hover {
 
 .w-2{
     grid-column: span 2;
+}
+
+.sections {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 8%;
+}
+
+.arquivo_tit h1 {
+    font-style: italic;
+    letter-spacing: 5px;
+    font-size: 2.7vw;
+    margin-top: 15px;
+    color: #111;
+    text-align: center;
+    margin-top: -14%;
 }
 
 
