@@ -143,7 +143,7 @@ header {
     letter-spacing: 5px;
     font-stretch: ultra-expanded;
     font-size: 1.7vw;
-    float: right;
+    float: left;
     animation: fadeInRight;
     animation-duration: 1.2s;
     margin-top: 15px;
@@ -154,27 +154,30 @@ header {
 .sessao {
     display: flex;
     flex-direction: row;
-    gap: 3%;
 }
 
 .conteudo {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+
+}
+.prod{
+    margin-right: 2%;
 }
 
 .prod img {
-    width: 23vw;
+    height: 100%;
+    width: 100%;
+    width: 26vw;
     height: 59vh;
-    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
     animation: fadeInLeft;
     animation-duration: 1s;
 }
 
 .prod img:hover {
     transition: 0.3s;
-    transform: scale(1.05);
+    transform: scale(1.07);
 }
 
 .prod h3:hover {
@@ -305,7 +308,7 @@ footer a:hover {
 .arquivo_tit h1 {
     font-style: italic;
     letter-spacing: 5px;
-    font-size: 250%;
+    font-size: 40px;
     margin-top: 15px;
     color: #111;
     text-align: center;
