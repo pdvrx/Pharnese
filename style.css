@@ -385,5 +385,18 @@ footer a:hover {
         gap: 3%;
     }
 
-    
+    .titsn  {
+        font-style: italic;
+        letter-spacing: 7px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .expliq  {
+        text-align: center;
+    }
+
+    .equip  {
+        text-align: center;
+    }
 }
